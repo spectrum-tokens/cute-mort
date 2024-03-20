@@ -30,7 +30,7 @@ const SocialsSection = () => {
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center btn btn-square outline-accent"
+              className="flex items-center justify-center btn btn-square btn-primary"
             >
               {icon}
             </a>

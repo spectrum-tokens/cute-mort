@@ -22,12 +22,12 @@ const config: Config = {
   daisyui: {
     themes: [{
       madagascar: {        
-        "primary": "#F1AA47",
-        "secondary": "#be945b",
-        "accent": "#8B4513",
-        "base-100": "#738C3C",
-        "base-200": "#8CA653",
-        "base-300": "#A6B673"
+        "primary": "#8B4513",        
+        "accent": "black",
+        "base-content": "black",
+        "base-100": "#2B7C43",
+        "base-200": "#6AA53C",
+        "base-300": "#A5D042",
       },
     }],
   },

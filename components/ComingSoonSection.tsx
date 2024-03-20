@@ -4,7 +4,7 @@ import { EXCHANGES_LIST } from "@/data/config";
 
 const ExchangeCard = ({ logo, title }: { logo: string; title: string }) => {
   return (
-    <div className="flex justify-center items-center btn">
+    <div className="flex justify-center items-center btn btn-outline btn-accent">
       <span>{title}</span>
       <img className="h-[30px]" src={logo} />
     </div>

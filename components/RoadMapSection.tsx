@@ -5,7 +5,7 @@ const RoadMapSection = () => {
   return (
     <section id="road-map">
       <SectionTitle title="Roadmap" />
-      <div className="flex flex-wrap items-center justify-center gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {[
           {
             month: "March",

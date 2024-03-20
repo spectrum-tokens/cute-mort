@@ -15,7 +15,7 @@ const AboutSection = () => {
             <br />
             <br /> Our mission is simple yet impactful. To become the primary
             cryptocurrency to support <strong>Lemurs</strong> like Mort and King
-            Julian in Madagascar.
+            Julian of Madagascar.
             <br />
             <br />
             We are going to achieve this by reserving <strong>10%</strong> of

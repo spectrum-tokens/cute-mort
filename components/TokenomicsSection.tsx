@@ -29,9 +29,9 @@ const TokenomicsSection = () => {
         <div className="col-span-2 md:col-span-1 stats stats-vertical shadow outline outline-accent">
           {[
             { title: "Total Supply", value: `💰 ${TOTAL_SUPPLY}` },
-            { title: "Liquidity", value: "🔥 Burned " },
-            { title: "Mint & Freeze", value: "❄ Revoked " },
-            { title: "Taxes", value: "✅ 0% " },
+            { title: "Liquidity", value: "🔥 Burned" },
+            { title: "Mint & Freeze", value: "💀 Revoked" },
+            { title: "Taxes", value: "✅ 0%" },
           ].map(({ title, value }) => (
             <Stat key={title} title={title} value={value} />
           ))}
@@ -40,7 +40,7 @@ const TokenomicsSection = () => {
           <span className="card-body p-2">
             <span className="grid grid-cols-2 items-center justify-center gap-4 font-extrabold text-2xl">
               <button
-                className="col-span-2 btn btn-outline m-2 text-xs"
+                className="col-span-2 btn btn-outline btn-accent m-2 text-xs"
                 onClick={() => {
                   setShowAlert(true);
                   navigator.clipboard.writeText(TOKEN_ADDRESS);

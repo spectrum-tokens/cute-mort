@@ -20,7 +20,7 @@ const StepCard = ({
           className="rounded-xl w-[100px] h-[100px] object-cover"
         />
         <span className="space-y-2 flex flex-col items-center">
-          <h2 className="font-extrabold text-2xl">{title}</h2>
+          <h2 className="font-extrabold text-2xl text-primary">{title}</h2>
           <p className="text-center">{description}</p>
         </span>
       </div>
