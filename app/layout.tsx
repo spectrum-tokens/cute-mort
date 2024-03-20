@@ -24,7 +24,7 @@ export default function RootLayout({
         <Header />
         <div
           // style={style}
-          className="bg-gradient-to-b from-base-300 via-base-200 to-base-100 w-full flex flex-col items-center justify-center"
+          className="bg-base-300 w-full flex flex-col items-center justify-center"
         >
           <div className="w-full p-1 max-w-7xl ">{children}</div>
         </div>

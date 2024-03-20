@@ -5,15 +5,6 @@ export const headerLinks = [
   { path: `#road-map`, text: "Road Map" },
 ];
 
-
-export const TOKEN_ADDRESS = "9zn52BFG4uDKt7rL68eP7qDUE9WBEbarxfcA339LGXV5"
-export const RAYDIUM_URL = `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${TOKEN_ADDRESS}&fixed=in`
-export const BIRDEYE_URL = `https://birdeye.so/token/${TOKEN_ADDRESS}?chain=solana`
-
-
-
-
-
 export const EXCHANGES_LIST  = [
   {
     title: "Binance",
@@ -43,10 +34,16 @@ export const EXCHANGES_LIST  = [
 ];
 
 export const TWITTER_URL = "https://twitter.com/SquirtleT0ken"
+export const TELEGRAM_URL = "https://t.me/+-dFl1XAfSyU3ZDk0"
 
 export const TOKEN_SYMBOL = "$MORT"
 export const TOKEN_NAME = "Cute Mort"
 export const TOTAL_SUPPLY = "1B"
+
+export const TOKEN_ADDRESS = "8RnPT9RwascCjmTnTyKAwhcxWZZjq3y3foxAbcui2Bq9"
+export const RAYDIUM_URL = `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${TOKEN_ADDRESS}&fixed=in`
+export const BIRDEYE_URL = `https://birdeye.so/token/${TOKEN_ADDRESS}?chain=solana`
+export const DEX_URL = `https://dexscreener.com/solana/${TOKEN_ADDRESS}`
 
 
 

@@ -1,11 +1,13 @@
 ![Alt Text](public/images/cute-mort.gif)
 
+MARKET ID 84Uqmr2tLTmW4wYbcMQRVQtcvqtpUzrtzLyWy13AbTZA
+
 
 # COSTS
-- Create token 0.5 SOL.
-- Revoke Freeze 0.1 SOL.
-- Revoke Mint 0.1 SOL.
-- Create Market ID  0.3 using the “Advanced Options”.
+- Create token 0.5 SOL. [x]
+- Revoke Freeze 0.1 SOL. [x]
+- Revoke Mint 0.1 SOL. [x]
+- Create Market ID  0.3 using the “Advanced Options”. [x]
 - Pool creation cost 0.4
 - Dex token profile banner 299$
 
