@@ -1,2 +1,3 @@
-# cute-mort
-Repository of cute-mort token from Madagascar
+![Alt Text](public/images/cute-mort.gif)
+
+
