@@ -20,7 +20,16 @@ const config: Config = {
     },
   },
   daisyui: {
-    themes: ["light", "dark", "aqua"],
+    themes: [{
+      madagascar: {        
+        "primary": "#422f25",
+        "secondary": "#be945b",
+        "accent": "#dfcc75",
+        "base-100": "#52843c",
+        "base-200": "#75a663",
+        "base-300": "#98c38a",
+      },
+    }],
   },
   plugins: [require("daisyui")],
 };

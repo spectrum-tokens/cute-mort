@@ -8,7 +8,7 @@ import SocialsSection from "@/components/SocialsSection";
 
 export default function Home() {
   return (
-    <main className=" h-full bg-gradient-to-b from-base-300 to-base-100">
+    <main className="h-full bg-transparent">
       <div className="flex flex-col items-center justify-center gap-16 m-2">
         <TokenomicsSection />
         <AboutSection />
