@@ -36,6 +36,8 @@ const TokenomicsSection = () => {
             <Stat key={title} title={title} value={value} />
           ))}
         </div>
+        <SectionTitle title="Token address" className="col-span-2" />
+
         <Card className="col-span-2">
           <span className="card-body p-2">
             <span className="grid grid-cols-2 items-center justify-center gap-4 font-extrabold text-2xl">

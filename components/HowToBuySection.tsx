@@ -17,7 +17,7 @@ const StepCard = ({
         <img
           src={image}
           alt={title}
-          className="rounded-xl w-[100px] h-[100px] object-cover"
+          className="rounded-xl w-[100px] h-[100px] object-contain"
         />
         <span className="space-y-2 flex flex-col items-center">
           <h2 className="font-extrabold text-2xl text-primary">{title}</h2>
@@ -55,7 +55,7 @@ const HowToBuySection = () => {
         {
           title: `4. Swap SOL for ${TOKEN_SYMBOL}`,
           description: `Switch SOL for ${TOKEN_SYMBOL}. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility`,
-          image: "/images/logo.png",
+          image: "/images/buy-mort.webp",
         },
       ].map(({ title, description, image }) => (
         <StepCard
