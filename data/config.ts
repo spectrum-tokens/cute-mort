@@ -43,7 +43,7 @@ export const TOTAL_SUPPLY = "1B"
 export const TOKEN_ADDRESS = "8RnPT9RwascCjmTnTyKAwhcxWZZjq3y3foxAbcui2Bq9"
 export const RAYDIUM_URL = `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${TOKEN_ADDRESS}&fixed=in`
 export const BIRDEYE_URL = `https://birdeye.so/token/${TOKEN_ADDRESS}?chain=solana`
-export const DEX_URL = `https://dexscreener.com/solana/${TOKEN_ADDRESS}`
+export const DEX_URL = `https://dexscreener.com/solana/3ez5giu1u9i9kb9u88sc72umqxyqgqdoizkqmadhodr6`
 
 
 

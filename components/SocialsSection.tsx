@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
 
-import { TWITTER_URL, TELEGRAM_URL } from "@/data/config";
+import { TWITTER_URL, TELEGRAM_URL, DEX_URL } from "@/data/config";
 import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa";
 import { IconBase } from "react-icons";
 
@@ -14,7 +14,7 @@ const SOCIALS_INFO = [
     icon: <FaTelegramPlane size={40} />,
   },
   {
-    url: "",
+    url: DEX_URL,
     icon: <img src="/images/dex.png" className="h-[40px]"></img>,
   },
 ];
