@@ -56,7 +56,7 @@ const TokenomicsSection = () => {
                 href={RAYDIUM_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="btn btn-outline "
+                className="btn btn-primary "
               >
                 BUY NOW
               </a>
@@ -64,7 +64,7 @@ const TokenomicsSection = () => {
                 href={BIRDEYE_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="btn btn-primary btn-outline "
+                className="btn btn-accent"
               >
                 CHARTS
               </a>

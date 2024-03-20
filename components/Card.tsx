@@ -7,7 +7,7 @@ const Card = ({
 }) => {
   return (
     <div
-      className={`card bg-base-100 shadow-xl outline outline-accent ${className}`}
+      className={`card bg-base-200 shadow-xl outline outline-accent ${className}`}
     >
       {children}
     </div>

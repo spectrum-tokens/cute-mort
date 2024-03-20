@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en" data-theme="madagascar">
       <body className="min-h-screen h-screen  font-grandstander">
         <Header />
-        <div className="bg-base-200 w-full flex flex-col items-center justify-center ">
+        <div className="w-full flex flex-col items-center justify-center ">
           <div className="w-full p-1 max-w-7xl">{children}</div>
         </div>
       </body>
