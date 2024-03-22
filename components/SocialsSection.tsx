@@ -1,6 +1,11 @@
 import Card from "@/components/Card";
 
-import { TWITTER_URL, TELEGRAM_URL, DEX_URL } from "@/data/config";
+import {
+  TWITTER_URL,
+  TELEGRAM_URL,
+  DEX_URL,
+  DEX_TOOLS_URL,
+} from "@/data/config";
 import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa";
 import { IconBase } from "react-icons";
 
@@ -35,6 +40,13 @@ const SocialsSection = () => {
               {icon}
             </a>
           ))}
+          <a
+            className="flex items-center justify-center btn btn-primary"
+            href={DEX_TOOLS_URL}
+            target="_blank"
+          >
+            <img className="h-[40px] p-2" src="/images/DEXTools.png"></img>
+          </a>
         </div>
       </Card>
     </section>

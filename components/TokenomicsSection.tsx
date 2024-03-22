@@ -75,10 +75,6 @@ const TokenomicsSection = () => {
               </span>
             </span>
           </Card>
-          <iframe
-            className="w-full h-[300px] col-span-2"
-            src="https://dexscreener.com/solana/3ez5Giu1U9i9kB9U88sC72UmqxYqgqdoizkqmADHodr6?embed=1&theme=dark"
-          ></iframe>
         </div>
       </section>
     </>
