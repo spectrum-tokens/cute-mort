@@ -40,7 +40,7 @@ export const TOKEN_SYMBOL = "$MORT"
 export const TOKEN_NAME = "Cute Mort"
 export const TOTAL_SUPPLY = "1B"
 
-export const TOKEN_ADDRESS = "8RnPT9RwascCjmTnTyKAwhcxWZZjq3y3foxAbcui2Bq9"
+export const TOKEN_ADDRESS = "J7dFLie5yzcMEfDiKK5bAZjmyqDtwbYHk2p2C3CnLDxB"
 export const RAYDIUM_URL = `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${TOKEN_ADDRESS}&fixed=in`
 export const BIRDEYE_URL = `https://birdeye.so/token/${TOKEN_ADDRESS}?chain=solana`
 export const DEX_URL = `https://dexscreener.com/solana/${TOKEN_ADDRESS}`;
