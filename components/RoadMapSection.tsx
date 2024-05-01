@@ -8,26 +8,24 @@ const RoadMapSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {[
           {
-            month: "March",
+            month: "1st Stage",
             goals: [
-              "Launch Website and Social Media Channels",
-              "Initiate Community Building Campaign",
+              "Launch on pump.fun",
+              "Complete king of the hill and bonding curve",
             ],
           },
           {
-            month: "April",
+            month: "2nd Stage",
             goals: [
-              "List on CoinMarketCap and CoinGecko Listings",
-              "Achieve 5M Market Cap",
+              "Launch on raydium",
+              "Update DexScreener",
+              "Update DexTools",
+              "Buy trends",
             ],
           },
           {
-            month: "May",
-            goals: [
-              "Achieve 50M Market Cap",
-              "Secure Listing on a Centralized Exchange (CEX)",
-              "Contribute 10% to the wild animals in Madagascar",
-            ],
+            month: "3rd Stage",
+            goals: ["200k MC", "Apply to tier 2 CEX"],
           },
         ].map(({ goals, month }) => (
           <RoadMapCard key={month} month={month} goals={goals} />

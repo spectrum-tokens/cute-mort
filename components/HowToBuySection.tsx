@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
 import { SectionTitle } from "@/components/SectionTitle";
-import { RAYDIUM_URL, TOKEN_SYMBOL } from "@/data/config";
+import { PUMP_URL, RAYDIUM_URL, TOKEN_SYMBOL } from "@/data/config";
 
 const StepCard = ({
   title,
@@ -35,6 +35,9 @@ const HowToBuySection = () => {
       className="grid grid-cols-1 grid-flow-row items-center gap-8"
     >
       <SectionTitle title="HOW TO BUY" />
+      <a href={PUMP_URL} target="_blank" className="btn  btn-accent">
+        Buy before Raydium <img src="/images/pump.webp" />
+      </a>
       {[
         {
           title: "1. Create a Wallet",
